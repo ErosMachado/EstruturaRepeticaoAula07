@@ -10,7 +10,6 @@ public class Exercicio8 {
             System.out.println("Digite um número inteiro positivo: ");
             while (!scan.hasNextInt()) { 
                 System.out.println("Entrada inválida! Digite um número inteiro positivo: ");
-                scan.next(); 
             }
             num = scan.nextInt();
             if (num <= 0) {
